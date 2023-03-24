@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&family=Press+Start+2P&display=swap');
+
+:root {
+  --ff-primary: 'Press Start 2P', cursive;
+  --fs-primary: 3rem;
+  --fs-header: 1rem;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+html {
+  color-scheme: dark light;
+}
+
+body {
+  text-align: center;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-primary);
+}
+
+h3 {
+  position: absolute;
+  width: 100%;
+  top: -2rem;
+  font-size: var(--fs-header);
+}
+
+#container-canvas {
+  position: relative;
+}
+
+#scoreboard {
+  position: absolute;
+  top: 3rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
