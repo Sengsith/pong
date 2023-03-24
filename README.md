@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/Sengsith/interactive-comments-section)
-- Live Site URL: [Netlify](https://sprightly-dragon-bbf601.netlify.app/)
+- Solution URL: [GitHub](https://github.com/Sengsith/pong)
+- Live Site URL: [Netlify](https://ahreo-pong.netlify.app/)
 
 ## My process
 
